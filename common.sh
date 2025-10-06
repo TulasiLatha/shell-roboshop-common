@@ -43,7 +43,7 @@ npm install &>>$LOG_FILE
 VALIDATE $? "Install dependencies"
 }
 
-app-setup(){
+app_setup(){
     mkdir -p /app
      VALIDATE $? "Creating app directory"
 
